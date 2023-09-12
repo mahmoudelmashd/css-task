@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+background-color: #91c1a5;
+    height: 5000px;
+}
+
+address {
+    margin-top: 70px;
+    text-align: center;
+    
+}
+ p {
+    display: flex;
+ justify-content: center; 
+font-style: oblique;}
+
+h2 {  
+    background-color: rgb(45, 13, 13); 
+    font-style:normal; 
+    text-align:left;
+    }
+
+    .divv {
+ display: flex;
+ height: 300px;
+
+    }
+    .div1 {
+ width: 100%;
+ height: 100%;
+ position: relative;
+ margin: 10px;
+ display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.div1 img {
+        
+ position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+    }
+h1 {
+color: aliceblue;}
+
+
+.sec_bettwen {
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.sec_3 { display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+
+h4 {
+    display: flex;
+     justify-content: left;
+    color: rgb(63, 69, 75);}
+    
+
+
+    .sec_bettwenn {
+        display: flex;
+        justify-content: space-between;
+         
+    }
+
+
+.sec_bettwenn3 {
+    display: flex;
+    justify-content: space-between;
+     
+
+}
+
+
+
+.sec_33 {
+    display: flex;
+    height: 300px;
+}
+
+.dic__sec33 img {
+  display: flex;
+  justify-content: space-between;
+
+}
+.sec_333 {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.last {
+
+display: flex;
+justify-content: space-between;
+height: 300px;
+margin: 20px;
+
+}
+.last lastimg {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.butt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasxxt {
+display: flex;
+justify-content: space-between;
+margin: 20px;
+}
+
+.tasxxt add {
+    display: flex;
+    justify-content: space-between;
+ position: absolute;}
+
+.pageend{
+background-color: bisque;
+height: 280px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+
+
+.header {
+    position: fixed;
+    top: 0;  
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.navbar a {
+ font-size: 18px;
+ color: #ededed;
+ text-decoration: none;
+ text-align: center;
+ font-weight:500;
+ margin-left: 35px;
+ transition: .3s;
+
+}
+
+.navbar a:hover,
+.navbar a.active        {
+    color: #00abf0;
+}
+
+.home {
+     height:100vh ;
+     display: flex;
+     align-items: center;
+     padding: 0 10% ;
+}
